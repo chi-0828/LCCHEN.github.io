@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 
 <body>
@@ -73,7 +74,8 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        To be apear.
+                        I received his B.S. degree from the Department of Computer Science and Information Engineering (CSIE), National Chung Cheng University (CCU), Chiayi, Taiwan, in 2022. I am currently a M.S. student at the Department of Computer Science and Information Engineering (CSIE), National Cheng Kung University (NCKU), Tainan, Taiwan. 
+                        My research interests include <b>memory/storage systems and processing-in-memory architectures/applications</b>.
                     </p>
                 </div>
             </div>
@@ -86,13 +88,13 @@
         <div class="education-block">
             <h3>National Cheng Kung University (NCKU)</h3>
             <span class="education-date">Sept. 2022 - present</span>
-            <h4>MS, Department of <b>Computer Science</b> and Information Engineering</h4>
+            <h4>MS, <b>Computer Science</b> and Information Engineering</h4>
             <ul>
                 <li>
-                    SAC
+                    Presentation at ACM/SIGAPP SAC 2023, Tallinn, Estonia. (To be apear)
                 </li>
                 <li>
-                    NVMSA
+                    Presentation at IEEE NVMSA 2022, Taipei, Taiwan.
                 </li>
             </ul>
         </div>
@@ -101,7 +103,7 @@
         <div class="education-block">
             <h3>National Chung Cheng University (CCU)</h3>
             <span class="education-date">Sept. 2018 - Jun. 2022</span>
-            <h4>BS, Department of <b>Computer Science</b>and Information Engineering</h4>
+            <h4>BS, <b>Computer Science</b> and Information Engineering</h4>
         </div>
         <!-- End .education-block -->
     </div>
@@ -143,13 +145,14 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/RL.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Retention Leveling SSD simulator</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            A temperature-aware retention leveling scheme implementation on SSD simulator. 
+                            The project is in progress, more details and project site is available soon.
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -159,15 +162,18 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/rnadpu.png" width="300"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>RNA-seq quantification on UPMEM PIM system</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Running state-of-the-art RNA-seq abundance quantification software "kallisto" on UPMEM DPU system.
+                            The implementation includes DPU program, data transfers between CPU and DPU, and data allocation for DPU.
+                            The experimental results are shown in my paper "RNA-seq Quantification on Processing in memory Architecture: Observation and Characterization"
+                            (see Publication section).
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/chi-0828/RNA-Abundance-Quantification-on-UPMEM" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -200,14 +206,16 @@
     <!-- End #experience -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+        <h2>Information</h2>
+        <div class="optional-section-block" style="background-color: rgb(231, 197, 179)">
+            <h3>Contact by email</h3>
+            <ul>
+                <li>p76114391@gs.ncku.edu.tw</li>
+            </ul>
+            <h3>Github</h3>
+            <ul>
+                <li><a href="https://github.com/chi-0828" target="_blank">Go github</a></li>
+            </ul>
         </div>
         <!-- End #contact-form -->
     </div>
@@ -235,7 +243,7 @@
                             <a href="https://www.linkedin.com/in/liang-chi-chen-882a531b9" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://scholar.google.com.tw/citations?user=SoyMWUsAAAAJ" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://scholar.google.com.tw/citations?user=SoyMWUsAAAAJ" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
