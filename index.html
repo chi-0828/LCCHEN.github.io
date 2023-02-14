@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 
 <body>
@@ -34,9 +35,9 @@
             <li>
                 <a href="#publication">Publication</a>
             </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
+            <!-- <li>
+                <a href="#projects">Project</a>
+            </li> -->
             <li>
                 <a href="#experience">Experience</a>
             </li>
@@ -80,13 +81,16 @@
     </div>
     <!-- End #about -->
 
-    <div id="education">
+    <div id="education" >
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>National Cheng Kung University (NCKU)</h3>
             <span class="education-date">Sept. 2022 - present</span>
             <h4>MS, <b>Computer Science</b> and Information Engineering</h4>
             <ul>
+                <li>
+                    TA, Microprocessor Principles and Applications
+                </li>
                 <li>
                     Presentation at ACM/SIGAPP SAC 2023, Tallinn, Estonia. (To be apear)
                 </li>
@@ -130,15 +134,22 @@
             <h3>Conference papers</h3>
             <ul>
                 <li><span>
+                    <b>UpPipe: A Novel Pipeline Management on In-Memory Processors for RNA-seq Quantification</b><br>
+                    <b><u>Liang-Chi Chen</u></b>, Chien-Chung Ho, Yuan-Hao Chang<br>
+                    The 60th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, July 9-13, 2023.<br>
+                    Paper and slide are to be apear.
+                </span></li>
+                <br>
+                <li><span>
                     <b>Efficient Sanitization Design for LSM-based Key-Value Store over 3D MLC NAND Flash</b><br>
-                    <b><u>Liang-Chi Chen</u></b>, Shu-Qi Yu, Chien-Chung Ho, Wei-Chen Wang and Yung-Chun Li <br>
+                    <b><u>Liang-Chi Chen</u></b>, Shu-Qi Yu, Chien-Chung Ho, Wei-Chen Wang, Yung-Chun Li<br>
                     The 38th ACM/SIGAPP Symposium On Applied Computing (SAC), March 27-31, 2023. <br>
                     Paper and slide are to be apear.
                 </span></li>
                 <br>
                 <li><span>
                   <b>RNA-seq Quantification on Processing in memory Architecture: Observation and Characterization</b><br>
-                    <b><u>Liang-Chi Chen</u></b>, Shu-Qi Yu, Chien-Chung Ho, Yuan-Hao Chang, Da-Wei Chang, Wei-Chen Wang, Yu-Ming Chang, <br>
+                    <b><u>Liang-Chi Chen</u></b>, Shu-Qi Yu, Chien-Chung Ho, Yuan-Hao Chang, Da-Wei Chang, Wei-Chen Wang, Yu-Ming Chang<br>
                     The 11th IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA), August 23-25, 2022<br>
                     <a href="https://doi.org/10.1109/NVMSA56066.2022.00014" target="_blank"><span style="color:blue;text-decoration:underline;">[Paper]</span></a>
                     <a href="papers/NVMSA2022_rnadpu.pdf" target="_blank"><span style="color:blue;text-decoration:underline;">[Slide]</span></a>
@@ -153,15 +164,14 @@
 
     
 
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+    <!-- <div id="projects" class="background-alt">
+        <h2 class="heading">Project</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/RL.png" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Retention Leveling SSD simulation</h3>
                         <p>
@@ -170,15 +180,12 @@
                         </p>
                         <a href="#">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/rnadpu.png" width="300"/>
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>RNA-seq quantification on UPMEM PIM system</h3>
                         <p>
@@ -189,27 +196,25 @@
                         </p>
                         <a href="https://github.com/chi-0828/RNA-Abundance-Quantification-on-UPMEM" target="_blank">View Project</a>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End #projects -->
 
-    <div id="experience" class="background-alt">
+    <div id="experience" class="optional-section background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="Summer 2022">
                 <h3>Institute of Information Science, Academia Sinica, Taiwan</h3>
                 <h4>Research Intern</h4>
                 <p>
-                    To have studies on processing in/near memory, e.g., realizing genome sequencing on a processing-near-DRAM system.
+                    To have studies on processing in/near memory, e.g., realizing genome sequencing on a processing-in-memory system.
                 </p>
             </div>
 
             <div data-date="Summer 2021">
-                <h3>Patere (Global startup), Taiwan</h3>
+                <h3>Patere (global startup), Taiwan</h3>
                 <h4>Software Engineering Intern</h4>
                 <p>
                     To have projects of computer vision and deep learning, e.g., implementing an object detection appllication for patient assistance.
@@ -218,21 +223,49 @@
         </div>
     </div>
     <!-- End #experience -->
-
-    <!-- <div id="publication" class="optional-section background-alt">
-        <h2 class="heading">Conference Record</h2>
     
-        <div class="optional-section-block">
-            <div class="gallery">
-                <img src="images/NVMSA.JPG"/>
-                <img src="images/NULL.png"/>
-                <img src="images/NULL.png"/>
-                <img src="images/NVMSA2022_print.png"/>
-                <img src="images/SAC2023_isforkv_print.png"/>
-                <img src="images/NULL.png"/>
+    <div id="" class="optional-section background-alt">
+        <h2 class="heading">Conference Record</h2>
+        <!-- 1200*900 -->
+        <div class="container-fluid">
+            <div id="myCarousel" class="carousel slide bg-inverse w-50 ms-auto me-auto" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <!-- <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li> -->
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/NVMSA.jpg" alt="First slide">
+                        <div class="carousel-caption">
+                            <h3>IEEE NVMSA 2023</h3>
+                            <p>National Taiwan University, Taipei, Taiwan</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="carousel-item">
+                        <img class="d-block w-100" src="images/NVMSA.jpg" alt="Second slide">
+                        <div class="carousel-caption">
+                            <h3>ACM/SIGAPP SAC 2023</h3>
+                            <p>Tallinn University Conference Center, Tallinn, Estonia</p>
+                        </div>
+                    </div> -->
+
+                   
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </a>
             </div>
         </div>
-    </div> -->
+        <!-- Bundled -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        </script>
+    </div>
 
     <footer>
         <div class="container">
