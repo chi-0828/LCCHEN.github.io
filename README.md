@@ -1,1 +1,1 @@
-All sources are from https://github.com/RyanFitzgerald/devfolio
+The template is from https://github.com/RyanFitzgerald/devfolio
